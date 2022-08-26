@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "webpack.config.js",
   "scripts": {
-    "serve": "webpack && webpack serve",
-    "dev": "webpack --mode development",
+    "serve": "webpack --mode development && webpack serve",
     "deploy": "webpack --mode production && gh-pages -d dist"
   },
   "dependencies": {
